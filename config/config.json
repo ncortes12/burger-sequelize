@@ -1,0 +1,25 @@
+
+
+{
+  "development": {
+    "username": "root",
+    "password": "sleepy12",
+    "database": "burger_sequelize_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "cntyryn2io84t6fm",
+    "password": "acrhu29xpan6sgzx",
+    "database": "anpyhwwa4m8apm58",
+    "host": "a5s42n4idx9husyc.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
+}

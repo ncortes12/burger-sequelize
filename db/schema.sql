@@ -1,12 +1,4 @@
-DROP DATABASE IF EXISTS burger_db;
+DROP DATABASE IF EXISTS burger_sequelize_db;
 
-CREATE DATABASE burger_db;
+CREATE DATABASE burger_sequelize_db;
 
-USE burger_db;
-
-CREATE TABLE burgers (
-    id INT (10) NOT NULL AUTO_INCREMENT,
-    burger_name VARCHAR (50),
-    devoured BOOLEAN DEFAULT false,
-    PRIMARY KEY (id)
-);
